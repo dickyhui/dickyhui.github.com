@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dicky is Hui
+title: Moving Brick
 tagline: Move Brick
 ---
 {% include JB/setup %}
