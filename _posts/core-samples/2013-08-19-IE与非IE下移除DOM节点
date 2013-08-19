@@ -1,0 +1,96 @@
+---
+layout: post
+category : IT
+tags : [beginner, javascript, IE, DOM]
+---
+{% include JB/setup %}
+
+## 移除DOM节点
+
+在IE中移除容器类节点，会引起内存泄露，最好是创建一个新的节点，比如div，
+然后将要删除的节点放入这个div中，再将div的innerHTML清空。其它的直接removeChild就可以了。
+
+    var removeNode = !+"\v1" ? function(){
+        var d;
+        return function(node){
+            if(node && node.tagName != 'BODY'){
+                d = d || document.createElement('DIV');
+                d.appendChild(node);
+                d.innerHTML = '';
+            }
+        }
+    }() : function(node){
+        if(node && node.parentNode && node.tagName !=  'BODY'){
+            node.parentNode.removeChild(node);
+        }
+    }
+    
+移除节点：
+
+xxx.removeChild(obj) xxx是所删除节点的父节点
+
+xxx.removeNode(true) xxx是所要删除的节点
+
+## 判断IE浏览器
+
+1. +[1,]
+
+2. !+"\v1" 
+其实就是利用各浏览器对转义字符"\v"的理解,
+在ie浏览器中，"\v"没有转义，得到的结果为"v",
+而在其他浏览器中"\v"表示一个垂直制表符（一定程度上相当于空格）
+
+所以ie解析的"\v1" 为 "v1",
+而其他浏览器解析到 "\v1" 为 "1"
+
+在前面加上一个"+"是为了把后面的字符串转变成数字,
+由于ie认为"\v1"为"v1"，所以前面的加上加号无法转变成数字，为NaN,
+其他浏览器均能变成 1
+
+再因为js与c语言类似，进行逻辑判断时可使用数字，并且 0 为 false，其他数字则为true,
+所以 !1 = false ，于是其他浏览器均返回false
+
+js在遇到如下几个值会返回false：undefined、null、NaN，所以ie中 !NaN = true
+
+3. !!(window.attachEvent && navigator.userAgent.indexOf('Opera') === -1)
+
+4. !!(!window.addEventListener&& navigator.userAgent.indexOf('Opera') === -1)
+
+5. !!(document.all && navigator.userAgent.indexOf('Opera') === -1)
+
+6. [if IE]..![endif] 判断IE10之前
+
+    <!--[ if  IE 6]>
+    IE 浏览器版本 6
+    <![endif]-->
+    
+    <!--[ if  lte IE 9]>
+    IE 浏览器版本低于 9
+    <![endif]-->
+     
+    <!--[ if  IE 8 | IE 9]>
+    只出现于IE8 或IE9 才会显示的判断方式。
+    <![endif]-->
+    
+    lte :小于或等于
+    lt :小于
+    gte :大于或等于
+    gt :大于
+    ! :不等于、例如: [if !IE]浏览器不等于IE
+
+7. IE10判断见参考资料
+
+## Link
+
+[移除DOM节点](http://www.cnblogs.com/rubylouvre/archive/2009/07/17/1525637.html),
+这个例子在Chrome下运行有问题，将remove改成removeDiv或其他即可
+
+[浏览器判断IE版本条件式的语法[if IE]..![endif]](http://www.eion.com.tw/Blogger/?Pid=1123)
+
+[js判断是否是IE浏览器的几种方法](http://www.xker.com/page/e2010/0527/96514.html)
+
+[!+"\v1"解释](http://zhidao.baidu.com/question/552260987.html)
+
+[使用@cc_on语句判断IE10](http://lerous.com/blog/?p=180)
+
+[JS判断IE10浏览器](http://chgon.com/?p=1150)
