@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Moving Brick
-tagline: Move Brick
+title: Dicky の Blog
+tagline: Dicky の Blog
 ---
 {% include JB/setup %}
 
