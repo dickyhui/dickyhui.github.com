@@ -6,7 +6,7 @@ tagline: Dicky の Blog
 {% include JB/setup %}
 
  
-## The guy is too lazy to write
+## For my coding career...
 
 ## Posts
 <ul class="posts">
