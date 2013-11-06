@@ -23,7 +23,7 @@ bookmark[0][0] = {
 };
 bookmark[0][1] = {
 	'title':'zhihu',
-	'url':'http://www.zhihu.com/people/caizhenghai',
+	'url':'http://www.zhihu.com/people/lin-xian-hui-58',
 	'thumb':'zhihu.png'
 };
 bookmark[0][2] = {
@@ -43,7 +43,7 @@ bookmark[0][4] = {
 };
 bookmark[0][5] = {
 	'title':'weibo',
-	'url':'http://weibo.com/18loving',
+	'url':'http://weibo.com/u/2682486434',
 	'thumb':'weibo.png'
 };
 bookmark[0][6] = {
