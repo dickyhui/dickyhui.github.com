@@ -66,7 +66,7 @@ bookmark[0][10] = {
 };
 bookmark[0][11] = {
 	'title':'谷奥',
-	'url':'http://www.guao.hk/',
+	'url':'http://www.guao.hk/'
 };
 // end of FIRST BLOCK
 // SECOND BLOCK
