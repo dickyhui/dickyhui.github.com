@@ -18,7 +18,7 @@ bookmark[2] = new Array();
 // FIRST BLOCK
 bookmark[0][0] = {
 	'title':'blog',
-	'url':'http://blog.forecho.com',
+	'url':'http://dickyhui.github.io/',
 	'thumb':'blog.png'
 };
 bookmark[0][1] = {
@@ -28,17 +28,17 @@ bookmark[0][1] = {
 };
 bookmark[0][2] = {
 	'title':'bokedaohang',
-	'url':'http://www.bokedaohang.com/',
+	'url':'http://dickyhui.github.io/BestBlue/',
 	'thumb':'bokedaohang.png'
 };
 bookmark[0][3] = {
 	'title':'xiami',
-	'url':'http://www.xiami.com/u/896152',
+	'url':'http://www.dewen.org/',
 	'thumb':'xiami.png'
 };
 bookmark[0][4] = {
 	'title':'douban',
-	'url':'http://www.douban.com/people/ipzone/',
+	'url':'http://mail.163.com/',
 	'thumb':'douban.png'
 };
 bookmark[0][5] = {
@@ -48,32 +48,32 @@ bookmark[0][5] = {
 };
 bookmark[0][6] = {
 	'title':'readeep',
-	'url':'http://readeep.diandian.com/',
+	'url':'http://www.cc98.org/',
 	'thumb':'readeep.png'
 };
 bookmark[0][7] = {
 	'title':'diandian',
-	'url':'http://nowhisky.diandian.com/',
+	'url':'http://jandan.net/pic',
 	'thumb':'diandian.png'
 };
 bookmark[0][8] = {
 	'title':'work',
-	'url':'http://work.forecho.com',
+	'url':'http://www.csdn.net/',
 	'thumb':'work.png'
 };
 bookmark[0][9] = {
 	'title':'github',
-	'url':'https://github.com/forecho',
+	'url':'https://github.com/dickyhui',
 	'thumb':'github.png'
 };
 bookmark[0][10] = {
 	'title':'howzhi',
-	'url':'http://www.howzhi.com/',
+	'url':'http://news.dbanotes.net/',
 	'thumb':'howzhi.png'
 };
 bookmark[0][11] = {
 	'title':'niyabizui',
-	'url':'http://www.niyabizui.com/',
+	'url':'http://www.guao.hk/',
 	'thumb':'niyabizui.png'
 };
 // end of FIRST BLOCK
