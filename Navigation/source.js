@@ -28,15 +28,18 @@ bookmark[0][1] = {
 };
 bookmark[0][2] = {
 	'title':'Blog Life',
-	'url':'http://dickyhui.github.io/BestBlue/'
+	'url':'http://dickyhui.github.io/BestBlue/',
+	'thumb':''
 };
 bookmark[0][3] = {
 	'title':'德问',
-	'url':'http://www.dewen.org/'
+	'url':'http://www.dewen.org/',
+	'thumb':''
 };
 bookmark[0][4] = {
 	'title':'163',
-	'url':'http://mail.163.com/'
+	'url':'http://mail.163.com/',
+	'thumb':''
 };
 bookmark[0][5] = {
 	'title':'weibo',
@@ -45,15 +48,18 @@ bookmark[0][5] = {
 };
 bookmark[0][6] = {
 	'title':'CC98',
-	'url':'http://www.cc98.org/'
+	'url':'http://www.cc98.org/',
+	'thumb':''
 };
 bookmark[0][7] = {
 	'title':'无聊图',
-	'url':'http://jandan.net/pic'
+	'url':'http://jandan.net/pic',
+	'thumb':''
 };
 bookmark[0][8] = {
 	'title':'CSDN',
-	'url':'http://www.csdn.net/'
+	'url':'http://www.csdn.net/',
+	'thumb':''
 };
 bookmark[0][9] = {
 	'title':'github',
@@ -62,11 +68,13 @@ bookmark[0][9] = {
 };
 bookmark[0][10] = {
 	'title':'Startup News',
-	'url':'http://news.dbanotes.net/'
+	'url':'http://news.dbanotes.net/',
+	'thumb':''
 };
 bookmark[0][11] = {
 	'title':'谷奥',
-	'url':'http://www.guao.hk/'
+	'url':'http://www.guao.hk/',
+	'thumb':''
 };
 // end of FIRST BLOCK
 // SECOND BLOCK
