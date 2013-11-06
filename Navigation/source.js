@@ -27,19 +27,16 @@ bookmark[0][1] = {
 	'thumb':'zhihu.png'
 };
 bookmark[0][2] = {
-	'title':'bokedaohang',
-	'url':'http://dickyhui.github.io/BestBlue/',
-	'thumb':'bokedaohang.png'
+	'title':'Blog Life',
+	'url':'http://dickyhui.github.io/BestBlue/'
 };
 bookmark[0][3] = {
-	'title':'xiami',
-	'url':'http://www.dewen.org/',
-	'thumb':'xiami.png'
+	'title':'德问',
+	'url':'http://www.dewen.org/'
 };
 bookmark[0][4] = {
-	'title':'douban',
-	'url':'http://mail.163.com/',
-	'thumb':'douban.png'
+	'title':'163',
+	'url':'http://mail.163.com/'
 };
 bookmark[0][5] = {
 	'title':'weibo',
@@ -47,19 +44,16 @@ bookmark[0][5] = {
 	'thumb':'weibo.png'
 };
 bookmark[0][6] = {
-	'title':'readeep',
-	'url':'http://www.cc98.org/',
-	'thumb':'readeep.png'
+	'title':'CC98',
+	'url':'http://www.cc98.org/'
 };
 bookmark[0][7] = {
-	'title':'diandian',
-	'url':'http://jandan.net/pic',
-	'thumb':'diandian.png'
+	'title':'无聊图',
+	'url':'http://jandan.net/pic'
 };
 bookmark[0][8] = {
-	'title':'work',
-	'url':'http://www.csdn.net/',
-	'thumb':'work.png'
+	'title':'CSDN',
+	'url':'http://www.csdn.net/'
 };
 bookmark[0][9] = {
 	'title':'github',
@@ -67,14 +61,12 @@ bookmark[0][9] = {
 	'thumb':'github.png'
 };
 bookmark[0][10] = {
-	'title':'howzhi',
-	'url':'http://news.dbanotes.net/',
-	'thumb':'howzhi.png'
+	'title':'Startup News',
+	'url':'http://news.dbanotes.net/'
 };
 bookmark[0][11] = {
-	'title':'niyabizui',
+	'title':'谷奥',
 	'url':'http://www.guao.hk/',
-	'thumb':'niyabizui.png'
 };
 // end of FIRST BLOCK
 // SECOND BLOCK
