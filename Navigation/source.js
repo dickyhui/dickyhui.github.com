@@ -72,8 +72,8 @@ bookmark[0][10] = {
 	'thumb':''
 };
 bookmark[0][11] = {
-	'title':'谷奥',
-	'url':'http://www.guao.hk/',
+	'title':'网易RSS',
+	'url':'http://reader.youdao.com/index.do?oreferer=http%3A%2F%2Fwww.163.com%2Frss%2F#home',
 	'thumb':''
 };
 // end of FIRST BLOCK
