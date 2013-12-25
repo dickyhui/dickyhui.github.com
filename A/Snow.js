@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    makeSnow("christmasSnow", "./Image/Christmas.jpg");
+    makeSnow("christmasSnow", "https://f.cloud.github.com/assets/3831602/1807763/15287e54-6d11-11e3-8ab8-ad81ecbd5501.jpg");
 });
 
 function makeSnow(canvasId, imagePath) {
