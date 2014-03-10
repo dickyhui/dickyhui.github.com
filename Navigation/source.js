@@ -32,8 +32,8 @@ bookmark[0][2] = {
 	'thumb':''
 };
 bookmark[0][3] = {
-	'title':'德问',
-	'url':'http://www.dewen.org/',
+	'title':'推库',
+	'url':'http://www.tuicool.com/',
 	'thumb':''
 };
 bookmark[0][4] = {
