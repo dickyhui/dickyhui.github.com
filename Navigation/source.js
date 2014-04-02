@@ -47,8 +47,8 @@ bookmark[0][5] = {
 	'thumb':'weibo.png'
 };
 bookmark[0][6] = {
-	'title':'CC98',
-	'url':'http://www.cc98.org/',
+	'title':'简报',
+	'url':'http://janbao.net/',
 	'thumb':''
 };
 bookmark[0][7] = {
