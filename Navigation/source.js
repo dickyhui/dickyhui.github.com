@@ -27,8 +27,8 @@ bookmark[0][1] = {
 	'thumb':'zhihu.png'
 };
 bookmark[0][2] = {
-	'title':'Blog Life',
-	'url':'http://dickyhui.github.io/BestBlue/',
+	'title':'简报',
+	'url':'http://janbao.net/',
 	'thumb':''
 };
 bookmark[0][3] = {
@@ -47,8 +47,8 @@ bookmark[0][5] = {
 	'thumb':'weibo.png'
 };
 bookmark[0][6] = {
-	'title':'简报',
-	'url':'http://janbao.net/',
+	'title':'网易云课堂',
+	'url':'http://study.163.com/find.htm#/find/corplist',
 	'thumb':''
 };
 bookmark[0][7] = {
